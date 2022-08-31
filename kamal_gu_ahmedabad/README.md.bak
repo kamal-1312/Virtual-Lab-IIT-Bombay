@@ -1,0 +1,53 @@
+## Git assignment 1 :
+
+	Create your Profile/Portfolio page , In basic one page HTML ( No CSS required)
+
+	Add your photo,	
+	your name,
+	class,
+	institute and some more details( do not display your email id or phone number or home address) :
+
+
+	Create a git repository / new project in
+	(https://gitlab.com/vlabsdev/white-belt-trainings/git-trainings ( we will not assess any
+	repos created outside the mentioned group)
+	a. Create a developer branch.
+	b. Clone the repository. ( When 2FA is enabled, regular clone commands won't work out
+	of the box, you need to clone following this tutorial
+	https://dev.to/fpeluso/how-to-clone-a-gitlab-repository-after-enabling-2fa-6oc , you
+	can try exploring more tutorials on the web)
+	In the developer branch
+	Add
+
+	Index.html : to show your profile
+	JSON file : it has to be in the repository : must contain your class, institute,
+	name and discipline in JSON format.
+	Excel: it has to be in the repository : must contain your class, institute, name
+	and discipline in EXCEL format.
+	Readme.md : describing the project and the documentations for the
+	application(including contributing, files and folders, hosting information).
+
+
+	Push the content with correct commit msg in the developer branch
+	Merge the developer branch into main without deleting developer branch
+	Tag & Release the app from the main branch.
+	Make changes in each file in the developer branch.
+	Push to the developer branch with the correct commit msg.
+	Merge into the main branch without deleting the developer branch.
+	Tag & Release the app from the main
+
+
+	## Contributing files:
+
+	Index.html file
+	Jason file
+	Excel file
+	Image file
+	README.md file
+	
+	## Hosting Information
+	
+	Hosted on: Running a command, file to run, file to serve if only html application .
+	URl : https://gitlab.com/vlabsdev/white-belt-trainings/git-trainings/kamal_gu_ahmedabad
+	
+	
