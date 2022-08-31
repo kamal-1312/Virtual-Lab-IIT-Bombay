@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Smilie</title>
+    <style>
+      .face:hover .blink
+        {
+            ry:0;
+        }
+
+
+        .blink
+        {
+            ry:10;
+            transition: ry 0.2s ease;
+        }
+    </style>
+  </head>
+  <body>
+    <svg class="smiley" height="500" width="500">
+        <g class="face">
+        <circle class="face" cx="97" cy="100" r="80" stroke="black" stroke-width="1.5" fill="yellow" />
+        
+        <g class="blink">
+          <ellipse cx="61" cy="82" rx=10 class="blink" />
+          <ellipse cx="140" cy="82" rx=10 class="blink" />
+        </g>
+        <g class="smile">
+            <path d="M 50 125 C 80.5 160, 110 160, 140 125" stroke="black" stroke-width="2" fill="transparent" class="smiled"/>
+        </g>
+        </g>
+    </svg>
+  </body>
+</html>
+
